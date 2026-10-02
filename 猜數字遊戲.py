@@ -18,7 +18,7 @@ while times != 0:
 
     else:
         print('恭喜你！猜對了，正確答案是', target)
-        break
+        continue
 times -= 1
 
 if times == 0:
